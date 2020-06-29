@@ -279,7 +279,7 @@ const styles = StyleSheet.create({
       },
       formTextInput:{
         width:'75%',
-        height:30,
+        height:35,
         alignSelf:'center',
         borderColor:'#ff00b2',
         borderRadius:10,

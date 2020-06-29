@@ -53,7 +53,7 @@ export default class FoodRequestScreen extends Component{
             <KeyboardAvoidingView style={styles.keyBoardStyle}>
               <TextInput
                 style ={styles.formTextInput}
-                placeholder={"enter food name"}
+                placeholder={"ENTER FOOD NAME"}
                 onChangeText={(text)=>{
                     this.setState({
                         foodName:text

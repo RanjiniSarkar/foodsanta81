@@ -53,7 +53,7 @@ export default class RecipeRequestScreen extends Component{
             <KeyboardAvoidingView style={styles.keyBoardStyle}>
               <TextInput
                 style ={styles.formTextInput}
-                placeholder={"enter recipe name"}
+                placeholder={"ENTER RECIPE NAME"}
                 onChangeText={(text)=>{
                     this.setState({
                         recipeName:text
@@ -65,7 +65,7 @@ export default class RecipeRequestScreen extends Component{
                 style ={[styles.formTextInput,{height:300}]}
                 multiline
                 numberOfLines ={8}
-                placeholder={"Reason to request"}
+                placeholder={"REASON TO REQUEST"}
                 onChangeText ={(text)=>{
                     this.setState({
                         reasonToRequest:text

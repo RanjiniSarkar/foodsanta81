@@ -85,15 +85,19 @@ const styles = StyleSheet.create({
     alignItems:'center'
   },
   button:{
-    width:100,
-    height:30,
-    justifyContent:'center',
-    alignItems:'center',
-    backgroundColor:"#ff5722",
-    shadowColor: "#000",
-    shadowOffset: {
-       width: 0,
-       height: 8
-     }
+    width:300,
+        height:50,
+        justifyContent:'center',
+        alignItems:'center',
+        borderRadius:25,
+        backgroundColor:"#ff00c3",
+        shadowColor: "#000",
+        shadowOffset: {
+           width: 0,
+           height: 8,
+        },
+        shadowOpacity: 0.30,
+        shadowRadius: 10.32,
+        elevation: 16,
   }
 })
